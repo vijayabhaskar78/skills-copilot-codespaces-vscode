@@ -16,6 +16,35 @@ body {
   background-color: #fff;
   color: #95c11e;
 }
+/* Add this to your existing CSS or create a new style section */
+#search-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#search-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #95c11e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #7da61e;
+}
+
 
 body::-webkit-scrollbar {
   display: block;
@@ -30,25 +59,7 @@ body::-webkit-scrollbar-thumb {
 body {
   overflow-x: hidden;
 }
-#cursor {
-  height: 20px;
-  width: 20px;
-  background-color: #95c11e;
-  border-radius: 50%;
-  position: fixed;
-  z-index: 99;
-  transition: all linear 0.1s;
-}
-#cursor-blur {
-  height: 500px;
-  width: 500px;
-  background-color: rgba(150, 193, 30, 0.3);
-  border-radius: 50%;
-  position: fixed;
-  filter: blur(80px);
-  z-index: 9;
-  transition: all linear 0.4s;
-}
+
 #nav {
   height: 130px;
   width: 100%;
@@ -147,6 +158,8 @@ video {
   z-index: 10;
 }
 
+
+
 #scroller {
   /* background-color: red; */
   white-space: nowrap;
@@ -243,13 +256,13 @@ video {
   transition: all ease 0.6s;
 }
 #card1 {
-  background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-toptracer-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+  background-image: url(https://www.smartosc.com/wp-content/webp-express/webp-images/uploads/2023/04/4-Types-of-Digital-Transformation-Projects.png.webp);
 }
 #card2 {
-  background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/hero-4-1024x1024.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+  background-image: url(https://img.freepik.com/free-vector/inspire-word-typography-style-vector_53876-56884.jpg?w=740&t=st=1704221689~exp=1704222289~hmac=21eb3a6d72ad4af53fccfcddc77577864cb7b74ec1fff46ccdb74cba8d3a5726);
 }
 #card3 {
-  background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-lessons-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+  background-image: url(https://cdn4.iconfinder.com/data/icons/gray-user-management/512/connections-1024.png);
 }
 .overlay {
   height: 100%;
@@ -422,63 +435,7 @@ video {
   font-weight: 900;
   margin-bottom: 8px;
 }
-/* Custom Cursor Styles */
-#cursor {
-  height: 20px;
-  width: 20px;
-  background-color: #95c11e;
-  border-radius: 50%;
-  position: fixed;
-  z-index: 9999;
-  pointer-events: none;
-  transition: all linear 0.1s;
-}
 
-#cursor-blur {
-  height: 500px;
-  width: 500px;
-  background-color: rgba(150, 193, 30, 0.3);
-  border-radius: 50%;
-  position: fixed;
-  filter: blur(80px);
-  z-index: 9;
-  transition: all linear 0.4s;
-  pointer-events: none;
-}
-
-body {
-  cursor: none;
-}
-
-/* Add these styles to hide default cursor when hovering on the page */
-html, body {
-  cursor: none;
-}
-
-/* Custom Cursor Animation */
-body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 20px;
-  width: 20px;
-  background-color: #95c11e;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  z-index: 9999;
-  animation: cursorAnimation 0.5s infinite alternate;
-}
-
-@keyframes cursorAnimation {
-  0% {
-    transform: translate(-50%, -50%) scale(1);
-  }
-  100% {
-    transform: translate(-50%, -50%) scale(1.2);
-  }
-}
 
 
 #f3 h3 {
